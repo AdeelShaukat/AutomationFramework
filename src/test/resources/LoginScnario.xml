@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationFramework" thread-count="2" verbose="1">
+  <test name="LoginUser">
+    <parameter name="browserName" value="chrome">
+    </parameter>
+    <classes>
+      <class name="SampleTest">
+      </class>
+    </classes>
+  </test>
+</suite> <!-- Default Suite -->
+
